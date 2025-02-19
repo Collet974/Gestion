@@ -96,4 +96,3 @@ st.sidebar.header("📂 Exporter le tableau")
 if st.sidebar.button("📤 Exporter en Excel"):
     achats_df.to_excel(EXCEL_FILE, index=False)
     st.sidebar.success("✅ Fichier Excel exporté avec succès !")
-
